@@ -1,0 +1,15 @@
+{
+  "name": "aksh-co-tax-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aksh & Co. dynamic Tax Desk website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0"
+  }
+}

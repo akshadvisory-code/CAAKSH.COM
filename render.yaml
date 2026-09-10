@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: aksh-co-tax-desk
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: starter
+    domains:
+      - www.caaksh.com
+      - caaksh.com
+    disk:
+      name: taxdesk-data
+      mountPath: /opt/render/project/src
+      sizeGB: 1
